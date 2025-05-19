@@ -1,0 +1,19 @@
+img {
+    width: 200px;
+}
+@font-face {
+    font-family: 'VCR_OSD_MONO';
+    src: url('VCR_OSD_MONO_1.001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    text-align: left;
+    font-family: 'VCR_OSD_MONO', monospace;
+    background-color: black;
+    color: green;
+    max-width: 50vw;
+    margin: 0 auto;
+    word-wrap: break-word;
+    line-height: 1.8;
+}
